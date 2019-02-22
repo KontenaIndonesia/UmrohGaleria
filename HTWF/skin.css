@@ -2955,9 +2955,7 @@
          padding-bottom: 25px !important;
     }
 }
- .header-samples-live:hover {
-     box-shadow: 0 2px 15px rgba(0, 0, 0, 0.13);
-}
+
  p.faq-answer.accordion-group-answer {
      border: none !important;
      padding: 0px !important;
@@ -4626,13 +4624,13 @@
      letter-spacing: 1.5px;
 }
  .hero {
-     background-image: url('../images/hero.jpg');
+     background-image: url('https://adixazoden.cloudimg.io/cdn/n/n/https://drive.google.com/uc?id=1Fi9fzVGJOie23jb2XsA255ZaNEgAMH4i');
      height: 425.468px;
      background-size: 1280px 425.468px;
 }
 
 .hero-button {
-    background-image: url('../images/mecca.jpeg');
+    background-image: url('https://adixazoden.cloudimg.io/cdn/n/n/https://drive.google.com/uc?id=1EIv7G-mD7v7yRILD_-Yz7X2vTJncBc8F');
     height: auto;
     background-size: 1280px 425.468px;
 }
@@ -5985,19 +5983,27 @@ img.paket-photobook-123 {
 }
 
 .bg-d4dcdf {
-    background: #d4dcdf !important;
+    background: #C6FFDD;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .bg-70958d {
-    background: #70958d !important;
+    background: #12c2e9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .bg-8385a4 {
-    background: #8385a4 !important;
+    background: #FDC830;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F37335, #FDC830);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F37335, #FDC830); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .bg-6d7d99 {
-    background: #6d7d99 !important;
+    background: #00F260;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0575E6, #00F260);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0575E6, #00F260); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .bg-animation-3345 {
@@ -6013,4 +6019,12 @@ img.paket-photobook-123 {
 sub.sub-label-paket {
     bottom: -0.01em;
     right: -2px;
+}
+
+.border-top-eee {
+    border-top: 1px solid #eee !important;
+}
+
+.opacity-0-3 {
+    opacity: 0.3;
 }
